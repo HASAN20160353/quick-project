@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+  
+}
+body header{
+    background-color: beige;
+    box-shadow:3px 3px 3px;
+    padding: 50px;
+   
+ 
+}
+
+.wrapper{
+    
+    width: 1000px;
+  margin: 0 auto;
+  
+}
+body header .wrapper .logo{
+    width: 20%;
+    float: left;
+}
+body header .wrapper nav{
+    width: 80%;
+    float: left;
+}
+body header .wrapper ul{
+   list-style: none;
+   text-align: right;
+}
+body header .wrapper ul li{
+    display : inline;
+    margin-left: 20px;
+}
+body header .wrapper ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+  color: rgb(60, 60, 68);
+  font-weight: 700px;
+   
+}
+ /*hero section start*/
+section{}
+section .wrapper{
+    text-align: center;
+}
+section .wrapper h2{
+    font-size: 60px;
+}
+section .wrapper h2 span{
+   color: blue; 
+}
+section .wrapper p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+section .wrapper img{
+    width: 70%;
+}
+/*success section start*/
+#success{
+
+}
+#success .left-side{
+    width: 45%;
+    float: left;
+    margin-right: 50px;
+}
+#success .left-side h2{ 
+    text-align: right;
+    font-size: 60px;
+    color:rgb(254, 4, 12) ;
+    margin-top: 6px;
+}
+#success .left-side p{
+    font-size: 22px;
+}
+
+#success .right-side{
+   width: 45%;
+   float: right;
+   font-size: 60px;
+   margin-top: 12px;
+}
+/*card start*/
+
+#card{
+width: 1000px;
+  text-align: center;  
+}
+#card .card-item{
+   
+   width: 26%; 
+   float: left;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+padding: 15px;
+
+
+
+}
+#card .card-item img{ 
+    width: 100%;
+ height:300px;
+ padding-left: 50px;
+}
+#card .card-item h3{
+
+}
+#card .card-item p{}
